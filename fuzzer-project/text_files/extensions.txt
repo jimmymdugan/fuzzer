@@ -1,0 +1,8 @@
+php
+jsp
+html
+js
+txt
+pdf
+png
+img

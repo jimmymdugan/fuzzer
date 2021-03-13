@@ -1,0 +1,12 @@
+integer
+float
+string
+MySQL
+mysql
+SQL
+SELECT * FROM
+mysql_query
+$query
+data
+password
+username

